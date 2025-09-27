@@ -49,9 +49,7 @@
     background-image: -o-linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, 0));
     background-image: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, 0));
     z-index: 2;
-    /* brilho acima da imagem */
     pointer-events: none;
-    /* não atrapalha clique */
 }
 
 .Frame img {
@@ -95,7 +93,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    animation: bounce 1.5s infinite ease-in-out;
+    animation: bounce 2s infinite ease-in-out;
 }
 
 @keyframes bounce {
@@ -106,7 +104,7 @@
     }
 
     50% {
-        transform: translateY(-8px);
+        transform: translateY(-6px);
         /* sobe */
     }
 }
