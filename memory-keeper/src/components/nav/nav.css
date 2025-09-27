@@ -21,12 +21,17 @@
 }
 
 .nav-icons li {
-    font-size: 1.5rem;
-    color: #eee;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
 
-.nav-icons li:hover {
+.nav-icons li img {
+    width: 36px;
+    height: 36px;
+    transition: transform 0.3s ease;
+    filter: invert(100%);
+}
+
+.nav-icons li:hover img {
     transform: scale(1.2);
 }

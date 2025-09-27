@@ -40,7 +40,7 @@ const Frame = () => {
                 </li>
             </ul>
             <button className="btn-next-image" onClick={handleNextImage}>
-                <i className="fa fa-arrow-circle-right"></i>
+                <i className="fa fa-arrow-right"></i>
             </button>
         </div>
     );

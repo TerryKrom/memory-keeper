@@ -1,13 +1,16 @@
 import React from 'react';
 import './Nav.css';
+import image from '../../assets/image.svg';
+import message from '../../assets/message.svg';
+import music from '../../assets/music.svg';
 
 const Nav = () => {
     return (
         <div className="nav">
             <ul className="nav-icons">
-                <li><i className="fa fa-image"></i></li>
-                <li><i className="fa fa-comments"></i></li>
-                <li><i className="fa fa-music"></i></li>
+                <li><img src={image} alt="Image" /></li>
+                <li><img src={message} alt="Message" /></li>
+                <li><img src={music} alt="Music" /></li>
             </ul>
         </div>
     );
