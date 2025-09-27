@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Frame.css';
 
 import img1 from '../../assets/img01.jpg';
@@ -14,6 +14,14 @@ const Frame = () => {
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
+    // 🔥 Preload das imagens
+    useEffect(() => {
+        images.forEach((img) => {
+            const preloader = new Image();
+            preloader.src = img.src;
+        });
+    }, []);
+
     const handleNextImage = () => {
         setCurrentIndex((prevIndex) =>
             prevIndex === images.length - 1 ? 0 : prevIndex + 1
@@ -24,7 +32,6 @@ const Frame = () => {
         <div className="container">
             <ul id="Frames">
                 <li className="Frame">
-                    {/* a key força o React a recriar o <img> */}
                     <img
                         key={images[currentIndex].src}
                         src={images[currentIndex].src}

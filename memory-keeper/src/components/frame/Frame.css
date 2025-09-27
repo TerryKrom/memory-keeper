@@ -28,6 +28,8 @@
     position: relative;
     overflow: hidden;
     margin-right: 40px;
+    min-width: 327px !important;
+    max-height: 540px !important;
 }
 
 .Frame::before {
