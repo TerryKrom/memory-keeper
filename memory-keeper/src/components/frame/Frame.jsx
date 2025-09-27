@@ -4,6 +4,7 @@ import './Frame.css';
 import img1 from '../../assets/img01.jpg';
 import img2 from '../../assets/img02.jpg';
 import img3 from '../../assets/img03.jpg';
+import arrow_right from '../../assets/arrow-right.svg'
 
 const Frame = () => {
     const images = [
@@ -40,7 +41,7 @@ const Frame = () => {
                 </li>
             </ul>
             <button className="btn-next-image" onClick={handleNextImage}>
-                <i className="fa fa-arrow-right"></i>
+                <img src={arrow_right} alt="Arrow Right" />
             </button>
         </div>
     );
