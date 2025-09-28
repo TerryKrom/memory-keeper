@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Nav.css";
+import "./nav.css";
 import image from "../../assets/image.svg";
 import message from "../../assets/message.svg";
 import music from "../../assets/music-notes.svg";
