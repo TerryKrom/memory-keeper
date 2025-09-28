@@ -56,7 +56,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    scale: 0.7;
+}
+
+@media (max-width: 764px) {
+    .play-btn {
+        scale: 0.7;
+    }
 }
 
 .play-btn:hover {
@@ -64,7 +69,7 @@
 }
 
 .play-icon {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     filter: invert(100%);
 }

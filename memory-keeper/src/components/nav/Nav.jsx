@@ -71,9 +71,9 @@ const Nav = () => {
             <Modal isOpen={!!openModal} handleClose={closeModal}>
                 <div className="modal-panel">
                     <h2 className="modal-title">
-                        {openModal === "image" && "Galeria de Imagens"}
-                        {openModal === "message" && "Mensagem"}
-                        {openModal === "music" && "Music Player"}
+                        {openModal === "image" && "Our Moments"}
+                        {openModal === "message" && "Read me"}
+                        {openModal === "music" && "Cute Songs"}
                     </h2>
 
                     <div className="modal-body">
