@@ -32,3 +32,22 @@
 .nav-icons li:hover img {
     transform: scale(1.2);
 }
+
+.modal-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.btn-close {
+    margin-top: 1rem;
+    background: #111827;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.btn-close:hover {
+    background: #374151;
+}
