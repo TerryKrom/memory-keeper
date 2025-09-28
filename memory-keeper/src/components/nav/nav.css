@@ -35,19 +35,14 @@
 
 .modal-title {
     font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: 300;
     margin-bottom: 1rem;
 }
 
-.btn-close {
-    margin-top: 1rem;
-    background: #111827;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    transition: background 0.2s;
-}
-
-.btn-close:hover {
-    background: #374151;
+@media (max-width: 764px) {
+    .modal-panel img:not(section img) {
+        height: 80px;
+        width: 80px;
+        object-fit: cover;
+    }
 }

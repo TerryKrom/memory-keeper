@@ -20,7 +20,7 @@
 /* Modal container */
 .modal-container {
     width: 75%;
-    height: 50%;
+    height: 60%;
     background-color: #fff;
     position: absolute;
     top: 50%;
@@ -44,7 +44,11 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    right: 18px;
-    top: 18px;
+    right: 12px;
+    top: 12px;
     cursor: pointer;
+    background-color: #7d0505;
+    color: #fff;
+    border-radius: 100%;
+    padding: 2px;
 }
