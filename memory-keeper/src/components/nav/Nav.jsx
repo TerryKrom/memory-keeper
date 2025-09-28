@@ -78,7 +78,7 @@ const Nav = () => {
 
                     <div className="modal-body">
                         {openModal === "image" && (
-                            <ImageGallery imagesInfoArray={imagesArray} gapSize={24} />
+                            <ImageGallery imagesInfoArray={imagesArray} gapSize={0} />
                         )}
                         {openModal === "message" && (
                             <Message />

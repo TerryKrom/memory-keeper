@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import './Frame.css';
 
-import img1 from '../../assets/img01.jpg';
-import img2 from '../../assets/img02.jpg';
-import img3 from '../../assets/img03.jpg';
+import img1 from '../../assets/pics/01.jpg';
+import img2 from '../../assets/pics/02.jpg';
+import img3 from '../../assets/pics/03.jpg';
 import arrow_right from '../../assets/arrow-right.svg'
 
 const Frame = () => {
     const images = [
-        { src: img1, alt: 'Imagem 1 - descrição aqui' },
-        { src: img2, alt: 'Imagem 2 - descrição aqui' },
-        { src: img3, alt: 'Imagem 3 - descrição aqui' },
+        { src: img1, alt: '<3' },
+        { src: img2, alt: '<3' },
+        { src: img3, alt: '<3' },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);

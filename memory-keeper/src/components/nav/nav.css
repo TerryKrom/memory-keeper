@@ -39,10 +39,14 @@
     margin-bottom: 1rem;
 }
 
+.modal-panel {
+    margin: 10px 10px 10px 0px;
+}
+
 @media (max-width: 764px) {
     .modal-panel img:not(section img) {
-        height: 80px;
-        width: 80px;
+        height: 75px;
+        padding: 5px;
         object-fit: cover;
     }
 }
