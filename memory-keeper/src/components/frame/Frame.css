@@ -30,7 +30,7 @@
     margin-right: 40px;
 }
 
-.Frame::before {
+/* .Frame::before {
     content: "";
     position: absolute;
     top: -175px;
@@ -46,9 +46,9 @@
     background-image: -moz-linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, 0));
     background-image: -o-linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, 0));
     background-image: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, 0));
-    z-index: 2;
+    z-index: var(--before-z, 2);
     pointer-events: none;
-}
+} */
 
 .Frame img {
     border-width: 2px;
