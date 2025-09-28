@@ -1,16 +1,10 @@
 .message {
     color: #f4f1e8;
-    /* texto clarinho */
-    /* font-family: 'Georgia', serif; */
-    /* fonte mais literária */
     font-size: 1rem;
     line-height: 1.6;
     padding: 1.5rem;
-    border-radius: 12px;
-    max-height: 220px;
-    /* controla altura */
+    height: 375px;
     overflow-y: auto;
-    /* rolagem interna */
 }
 
 .message p {
