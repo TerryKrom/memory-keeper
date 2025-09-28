@@ -6,9 +6,11 @@ import music from "../../assets/music.svg";
 
 import Modal from "../customModal/Modal";
 import { ImageGallery } from "react-image-grid-gallery";
+import Message from "../message/Message";
+import Player from "../player/Player";
 
 const Nav = () => {
-    const [openModal, setOpenModal] = useState(null); // "image", "message", "music" ou null
+    const [openModal, setOpenModal] = useState(null);
 
     const closeModal = () => setOpenModal(null);
 
@@ -70,16 +72,20 @@ const Nav = () => {
                 <div className="modal-panel">
                     <h2 className="modal-title">
                         {openModal === "image" && "Galeria de Imagens"}
-                        {openModal === "message" && "Mensagens"}
-                        {openModal === "music" && "Player de Música"}
+                        {openModal === "message" && "Mensagem"}
+                        {openModal === "music" && "Music Player"}
                     </h2>
 
                     <div className="modal-body">
                         {openModal === "image" && (
                             <ImageGallery imagesInfoArray={imagesArray} gapSize={24} />
                         )}
-                        {openModal === "message" && <p>Aqui ficam as mensagens.</p>}
-                        {openModal === "music" && <p>Aqui você toca músicas.</p>}
+                        {openModal === "message" && (
+                            <Message />
+                        )}
+                        {openModal === "music" && (
+                            <Player />
+                        )}
                     </div>
                 </div>
             </Modal>

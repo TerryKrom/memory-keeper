@@ -1,8 +1,7 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Outfit:wght@100..900&display=swap');
 
+:root {
+  line-height: 1.5;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background: #7d0505;
@@ -13,8 +12,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  font-family: "Outfit", sans-serif;
+  font-weight: 100 !important;
+}
+
 a {
-  font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }

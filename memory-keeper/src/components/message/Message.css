@@ -1,0 +1,37 @@
+.message {
+    color: #f4f1e8;
+    /* texto clarinho */
+    /* font-family: 'Georgia', serif; */
+    /* fonte mais literária */
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 1.5rem;
+    border-radius: 12px;
+    max-height: 220px;
+    /* controla altura */
+    overflow-y: auto;
+    /* rolagem interna */
+}
+
+.message p {
+    margin: 0;
+    text-align: justify;
+}
+
+.message::-webkit-scrollbar {
+    width: 8px;
+}
+
+.message::-webkit-scrollbar-track {
+    background: #2a2620;
+    border-radius: 8px;
+}
+
+.message::-webkit-scrollbar-thumb {
+    background: #5a4a38;
+    border-radius: 8px;
+}
+
+.message::-webkit-scrollbar-thumb:hover {
+    background: #7a6248;
+}
