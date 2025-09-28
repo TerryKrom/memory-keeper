@@ -1,24 +1,33 @@
 import React, { useState, useRef } from "react";
 import "./Player.css";
 
+import hozier from '../../assets/hozier.jpeg';
+import hozierSong from '../../assets/hozier.mp3';
+
+import paramore from '../../assets/paramore.jpeg';
+import paramoreSong from '../../assets/paramore.mp3';
+
+import khruangbin from '../../assets/khruangbin.jpeg';
+import khruangbinSong from '../../assets/khruangbin.mp3';
+
 const tracks = [
     {
         id: 1,
-        title: "Chill Vibes",
-        src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-        cover: "https://picsum.photos/200?random=1",
+        title: "Hozier - Would That I",
+        src: hozierSong,
+        cover: hozier,
     },
     {
         id: 2,
-        title: "Focus Beats",
-        src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
-        cover: "https://picsum.photos/200?random=2",
+        title: "Paramore - Still Into You",
+        src: paramoreSong,
+        cover: paramore,
     },
     {
         id: 3,
-        title: "LoFi Dreams",
-        src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
-        cover: "https://picsum.photos/200?random=3",
+        title: "Khruangbin - Lady and Man",
+        src: khruangbinSong,
+        cover: khruangbin,
     },
 ];
 
