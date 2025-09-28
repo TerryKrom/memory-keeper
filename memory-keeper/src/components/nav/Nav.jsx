@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Nav.css";
 import image from "../../assets/image.svg";
 import message from "../../assets/message.svg";
-import music from "../../assets/music.svg";
+import music from "../../assets/music-notes.svg";
 
 import Modal from "../customModal/Modal";
 import { ImageGallery } from "react-image-grid-gallery";
